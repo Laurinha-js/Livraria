@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   box-sizing: border-box;
+
+}
+
+#nav{
+    background-color: rgb(144, 66, 245);
+    position: absolute;
+    width: 100vw;
+    top: -100px;
+    transition: ease-out 1s;
+
+}
+
+#nav nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+#nav nav ul li{
+    margin-right: 20px;
+}
+ #nav nav ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    text-decoration: none;
+    color:#fff;
+ }
+
+ #buscar{
+    width: 500px;
+    margin-right: 10px;
+    padding: 5px;
+    border: 0px;
+    outline: none;
+   
+
+ }
+
+ button{
+    padding: 5px;
+    border:0;
+    background-color:rgb(66, 245, 111);
+    cursor: pointer; 
+
+ }
+
+ #fechar{
+    color:#fff;
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    font-size: 20pt;
+    font-family: verdana;
+ }
+
+
+ #menu{
+    text-decoration: none;
+    color: #000;
+    font-size: 12pt;
+    font-family: Arial;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: ease 0.5s;
+ }
+
+ #menu:hover{
+    margin-left: 15pt;
+    color: lime;
+    text-shadow: 0px 0px 5px silver;
+ }
+
+
+ #listar, #resultado, #inserir{
+    width: 80vw;
+    border:1px solid silver;
+    margin: 100px auto;
+ }
+
+ #listarlivros{
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .caixa{
+   width: 30%;
+   margin: 10%;
+ }
+
+ .caixa  img{
+   width: 100%;
+
+ }
+ h3{
+   text-align: center;
+   font-family: 'Franklin Gothic Medium';
+   font-size: 20pt;
+   margin: 15px;
+
+ }
+
+ h4{
+   font-family: 'Franklin Gothic Medium';
+   font-size: 20pt;
+   margin: 15px;
+ }
+ 
+ h5{
+   font-family: 'arial';
+   font-size: 10pt;
+   margin: 10px;
+   color: red;
+ }
+ 
+ p{
+   font-family: 'arial';
+   font-size: 10t;
+   margin: 10px;
+ }
+
+ #inserir form{
+   width: 60%;
+   margin: 10px auto;
+   padding: 10px;
+
+ }
+
+ #inserir input[type="text"], 
+ #inserir select, 
+ #inserir text area{
+   width: 95%;
+   padding: 10px;
+   border: 0px;
+   border-bottom: 1px solid silver;
+   margin-bottom: 10px;
+   font-size: 12pt;
+   outline: none;
+ }
+
+ #txtpreco{
+   width: 40% !important;
+ }
+
+#txtgenero{
+   width: 48% !important;
+}
+
+#txtsinopse{
+width: 50vw;
+height: 200px;
+resize: none; /* bloqueia o redimensionamento*/
+}
+
